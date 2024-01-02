@@ -12,5 +12,5 @@ The main files in this repository are:
 Install Python3
 Install PIP3
 pip install -r requirements.txt
-python3 app.py
+python app.py
 ```
