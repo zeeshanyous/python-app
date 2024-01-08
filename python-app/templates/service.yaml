@@ -11,6 +11,6 @@ spec:
       targetPort: {{ .Values.service.targetport }}
       protocol: TCP
       name: http
-nodePort: {{ .Values.service.nodeport }}
+      nodePort: {{ .Values.service.nodeport }}
   selector:
     {{- include "python-app.selectorLabels" . | nindent 4 }}
